@@ -95,9 +95,9 @@ function ProductCard({ name, logo, link }: { name: string; logo: string; link: s
 }
 
 export default function HeroGeometric({
-  badge = "RAGLAB",
+  badge = "RAGLAB - AI Products",
   title1 = "Revolutionizing",
-  title2 = "AI Solutions",
+  title2 = "Business Operations",
 }: {
   badge?: string
   title1?: string
@@ -192,7 +192,7 @@ export default function HeroGeometric({
               <br />
               <span
                 className={cn(
-                  "bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300",
+                  "bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300 text-[80%] whitespace-nowrap",
                   orbitron.className,
                 )}
               >
